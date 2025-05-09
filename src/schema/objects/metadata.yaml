@@ -108,9 +108,8 @@ AnatomicalLandmarkCoordinateSystem:
   display_name: Anatomical Landmark Coordinate System
   description: |
     Defines the coordinate system for the anatomical landmarks.
-    See the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)
-    for a list of restricted keywords for coordinate systems.
-    If `"Other"`, provide definition of the coordinate system in
+    Must be `"Other"` (see the [Coordinate Systems Appendix](SPEC_ROOT/appendices/coordinate-systems.md)
+    for a list of restricted keywords). Provide a definition of the coordinate system in
     `"AnatomicalLandmarkCoordinateSystemDescription"`.
   anyOf:
     - $ref: objects.enums._MEGCoordSys
